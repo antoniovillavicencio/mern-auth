@@ -290,7 +290,8 @@ import "./App.scss";
 ```
 
 Es todo! Los estilos serán incluidos en tu bundle. Echa un vistazo al inspector de elementos
-![-w618](media/15531034637709/15531257015941.jpg)
+
+![-w618](https://ibb.co/sH6GHbf)
 
 Hay manera de compilar los estilos por separado pero va más allá de este tutorial. 
 
@@ -725,7 +726,7 @@ Para proteger y restringir el acceso a las operaciones CRUD de esta API, necesit
 
 Cada vez que un usuario se autentica en la aplicación, el servidor genera un JWT firmado con una llave secreta. Este token será almacenado del lado del cliente, ya sea por medio de cookies, `localStorage` o `sessionStorage`. Es importante recalcar que **la responsabilidad de mantener el estado del usuario (autenticado o no) recae en el cliente**. Cada vez que se hace una petición a algún endpoint protegido, el cliente deberá incluir el token que recibió del servidor cuando se autenticó. 
 
-![diagra](media/15531034637709/diagram.png)
+![diagra](https://ibb.co/DQKDVrH)
 
 En `config/config.js` añade lo siguiente:
 
