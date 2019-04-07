@@ -1,0 +1,5 @@
+node_modules
+client/src/auth
+client/src/user
+client/src/core/Menu.js
+

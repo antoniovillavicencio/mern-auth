@@ -1,0 +1,51 @@
+{
+  "name": "mern-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-hot-loader": "^4.8.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  }
+}
